@@ -4,9 +4,18 @@ Welcome to the repository dedicated to advancing the optimization of the Weather
 
 ## Purpose of the Repository
 
-This repository serves as a central hub for storing, documenting, and sharing innovative algorithms that optimize two critical parameters of the WRF-Solar model: `beta_con` and `vdis`. `beta_con` affects the microphysics related to cloud formation and condensation rates, while `vdis` influences the dispersion and scattering behaviors of aerosols and cloud particles in the model.
+The focus of this repository is on optimizing key parameters of the WRF-Solar model to better simulate solar irradiance, which is crucial for accurate climate modeling and weather forecasting. Solar irradiance at the Earth's surface is determined by three primary types:
 
-By minimizing the Mean Squared Error (MSE) between the model's predictions of solar irradiance (`SWDOWN`) and actual ground truth measurements, the algorithms aim to significantly enhance the model's reliability and utility for climate researchers and meteorologists.
+1. **Direct Normal Irradiance (DNI)**: Solar radiation received directly from the sun, impacting the surface at a normal (perpendicular) angle.
+2. **Diffuse Horizontal Irradiance (DHI)**: Solar radiation scattered by the atmosphere, arriving at the Earth's surface from various angles.
+3. **Global Horizontal Irradiance (GHI)**: The total irradiance from direct sunlight and sky-diffused light on a horizontal surface, which is the sum of DNI and DHI.
+
+### Critical Parameters in Focus:
+
+- **`beta_con` (Beta Condensation Rate)**: Influences the microphysics associated with cloud formation, directly affecting DHI by altering the cloud coverage and density, which modulates the amount of scattered light.
+- **`vdis` (Variance Dispersion)**: Controls the spread of cloud droplet sizes, impacting both DNI and DHI by determining how sunlight is diffused through clouds and aerosols.
+
+By tuning these parameters to minimize the Mean Squared Error (MSE) between the model's predictions of solar irradiance (`SWDOWN`) and actual ground truth measurements, we aim to enhance the model's reliability for climate researchers and meteorologists. The algorithms developed here apply advanced optimization techniques to find the optimal settings of `beta_con` and `vdis` that reflect realistic atmospheric conditions.
 
 ## Repository Structure
 **Key Directories and Files:**
