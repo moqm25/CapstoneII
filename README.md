@@ -1,6 +1,12 @@
 # Capstone II | CS493: WRF Model Optimization Codebase
 
-This repository focuses on the optimization of the Weather Research and Forecasting (WRF) model parameters using different algorithms. The primary goal is to minimize the Mean Squared Error (MSE) between the WRF model's predictions and the ground truth data. Below is an overview of the repository structure, the algorithms implemented, and the purpose of each file and directory.
+Welcome to the repository dedicated to advancing the optimization of the Weather Research and Forecasting (WRF) model, specifically focusing on the WRF-Solar model enhancements. This project is part of the CS492 course and aims at refining parameter tuning methods to improve prediction accuracy and computational efficiency in climate modeling.
+
+## Purpose of the Repository
+
+This repository serves as a central hub for storing, documenting, and sharing innovative algorithms that optimize two critical parameters of the WRF-Solar model: `beta_con` and `vdis`. `beta_con` affects the microphysics related to cloud formation and condensation rates, while `vdis` influences the dispersion and scattering behaviors of aerosols and cloud particles in the model.
+
+By minimizing the Mean Squared Error (MSE) between the model's predictions of solar irradiance (`SWDOWN`) and actual ground truth measurements, the algorithms aim to significantly enhance the model's reliability and utility for climate researchers and meteorologists.
 
 ## Repository Structure
 **Key Directories and Files:**
@@ -63,6 +69,20 @@ This repository focuses on the optimization of the Weather Research and Forecast
 
 - All methods rely on ground truth data stored in `ground_truth`.
 - The MSE calculation involves comparing WRF output (SWDOWN) against the provided observational data (swdtot) to measure performance.
+
+## How to Use This Repository
+
+1. **Model Setup**: Ensure that the WRF model is correctly installed and configured on your system. Refer to the [WRF Model Installation Guide](http://www2.mmm.ucar.edu/wrf/users/) for detailed instructions.
+2. **Dependency Installation**: Install all required Python libraries listed in `requirements.txt` to ensure compatibility with the scripts provided.
+3. **Running the Algorithms**: Execute the algorithm scripts to perform optimizations. Each script is self-contained and provides options to adjust settings like the number of iterations, learning rates, and more.
+4. **Evaluating Results**: Analyze the output plots and data to assess improvements in the model's performance and determine the best parameter configurations.
+5. **Further Research**: Use the findings and methodologies as a basis for further academic research or practical applications in weather forecasting and climate studies.
+
+## Collaborative and Educational Use
+
+This repository is designed to be a resource for students, researchers, and professionals interested in climate modeling and numerical weather prediction. Users are encouraged to experiment with the algorithms, propose modifications, and contribute to the ongoing development of more refined optimization techniques.
+
+We invite collaboration, discussion, and feedback to enhance the project's scope and impact.
 
 ## Running the Codes
 
