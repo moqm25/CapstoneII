@@ -1,4 +1,4 @@
-# Capstone I | CS492: Model Optimization Repository
+# Capstone II | CS493: WRF Model Optimization Codebase
 
 This repository focuses on the optimization of the Weather Research and Forecasting (WRF) model parameters using different algorithms. The primary goal is to minimize the Mean Squared Error (MSE) between the WRF model's predictions and the ground truth data. Below is an overview of the repository structure, the algorithms implemented, and the purpose of each file and directory.
 
