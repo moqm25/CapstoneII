@@ -72,8 +72,8 @@ By minimizing the Mean Squared Error (MSE) between the model's predictions of so
 
 ## How to Use This Repository
 
-1. **Model Setup**: Ensure that the WRF model is correctly installed and configured on your system. Refer to the [WRF Model Installation Guide](http://www2.mmm.ucar.edu/wrf/users/) for detailed instructions.
-2. **Dependency Installation**: Install all required Python libraries listed in `requirements.txt` to ensure compatibility with the scripts provided.
+1. **Model Setup**: Ensure that the WRF model is correctly installed and configured on your system. [INSERT]
+2. **Dependency Installation**: All dependencies should be taken care of in the initial install/Bash Script.
 3. **Running the Algorithms**: Execute the algorithm scripts to perform optimizations. Each script is self-contained and provides options to adjust settings like the number of iterations, learning rates, and more.
 4. **Evaluating Results**: Analyze the output plots and data to assess improvements in the model's performance and determine the best parameter configurations.
 5. **Further Research**: Use the findings and methodologies as a basis for further academic research or practical applications in weather forecasting and climate studies.
