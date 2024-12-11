@@ -81,7 +81,10 @@ By tuning these parameters to minimize the Mean Squared Error (MSE) between the 
 
 ## How to Use This Repository
 
-1. **Model Setup**: Ensure that the WRF model is correctly installed and configured on your system. [INSERT]
+1. **Model Setup**: Ensure that the WRF model is correctly installed and configured on your system.
+  - Install Ubuntu-20.04 LTS NOTE: MUST BE UBUNTU-20, NOT UBUNTU-22/latest release
+  - Run `source WRF-Solar-BNL_Install.bash`
+  - Wait... installation may take up to an hour. In the meantime, explore the rest of the respository.
 2. **Dependency Installation**: All dependencies should be taken care of in the initial install/Bash Script.
 3. **Running the Algorithms**: Execute the algorithm scripts to perform optimizations. Each script is self-contained and provides options to adjust settings like the number of iterations, learning rates, and more.
 4. **Evaluating Results**: Analyze the output plots and data to assess improvements in the model's performance and determine the best parameter configurations.
@@ -106,4 +109,4 @@ We invite collaboration, discussion, and feedback to enhance the project's scope
 
 ## Disclaimer
 
-This repository is currently updated and maintained. Each method represents a unique approach to optimizing WRF model parameters. The code and strategies are subject to further refinements and improvements.
+This repository is currently updated and maintained (as of 12/10/2024). Each method represents a unique approach to optimizing WRF model parameters. The code and strategies are subject to further refinements and improvements.
