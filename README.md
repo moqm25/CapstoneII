@@ -1,5 +1,7 @@
 # Capstone II | CS493: WRF Model Optimization Codebase
 
+https://github.com/moqm25/CapstoneII
+
 Welcome to the repository dedicated to advancing the optimization of the Weather Research and Forecasting (WRF) model, specifically focusing on the WRF-Solar model enhancements. This project is part of the CS492 course and aims at refining parameter tuning methods to improve prediction accuracy and computational efficiency in climate modeling.
 
 ## Purpose of the Repository
